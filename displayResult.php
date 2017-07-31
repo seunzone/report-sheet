@@ -159,7 +159,7 @@
 					 
 				</table><br>
 
-				<button class="myButton">Go back Home</button>
+				<button class="myButton" href="index.php">Go back Home</button>
 			
 		<hr>
 			
