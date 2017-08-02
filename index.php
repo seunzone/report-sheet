@@ -17,10 +17,10 @@
 	 
 	
 		<h1>Enter Students Results Here</h1>
-			<form action="displayResult.php">
+			<form action="logics/store_report.php" method="POST">
 				<table class="imagetable">
 					  <tr>
-						<th>Names</th>
+						<th>Name</th>
 						<th>Maths</th>
 						<th>English</th>
 						<th>Physics</th>
@@ -29,356 +29,28 @@
 						<th>Computer Studies</th>
 					  </tr>
 					  <tr>
-						<td>Femi Johnson</td>
 						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
+							<input type="text" name="name" required>
 						</td>
 						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
+							<input type="number" name="maths" required>
 						</td>
 						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
+							<input type="number" name="english" required>
 						</td>
 						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
+							<input type="number" name="physics" required>
 						</td>
 						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
+							<input type="number" name="chemistry" required>
 						</td>
 						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
+							<input type="number" name="biology" required>
+						</td>
+						<td>
+							<input type="number" name="computer" required>
 						</td>
 					  </tr>
-
-
-					   <tr>
-						<td>Chibuzo Michaels</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-					  </tr>
-
-					   <tr>
-						<td>Musa Philips</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-					  </tr>
-
-					   <tr>
-						<td>Leslie Dzong</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-					  </tr>
-
-					   <tr>
-						<td>Oju Ciroma</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-						<td>
-							<input type="number">
-							<select>
-								<option>F</option>
-								<option>E</option>
-								<option>D</option>
-								<option>C</option>
-								<option>B</option>
-								<option>A</option>
-							</select>
-						</td>
-					  </tr>
-					 
 				</table><br>
 
 				<button class="myButton">Submit Student Record</button>
